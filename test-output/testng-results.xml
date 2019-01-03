@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24441" started-at="2019-01-02T07:35:47Z" finished-at="2019-01-02T07:36:11Z">
+    <groups>
+      <group name="a">
+        <method signature="Book.reservation()[pri:0, instance:FirstProject.FirstPro.Book@5762806e]" name="reservation" class="FirstProject.FirstPro.Book"/>
+        <method signature="Book.reservation1()[pri:0, instance:FirstProject.FirstPro.Book@5762806e]" name="reservation1" class="FirstProject.FirstPro.Book"/>
+      </group> <!-- a -->
+    </groups>
+    <test name="Test" duration-ms="24441" started-at="2019-01-02T07:35:47Z" finished-at="2019-01-02T07:36:11Z">
+      <class name="FirstProject.FirstPro.Book">
+        <test-method status="PASS" signature="reservation()[pri:0, instance:FirstProject.FirstPro.Book@5762806e]" name="reservation" duration-ms="24404" started-at="2019-01-02T07:35:47Z" finished-at="2019-01-02T07:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservation -->
+        <test-method status="PASS" signature="reservation1()[pri:0, instance:FirstProject.FirstPro.Book@5762806e]" name="reservation1" duration-ms="9882" started-at="2019-01-02T07:35:47Z" finished-at="2019-01-02T07:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservation1 -->
+      </class> <!-- FirstProject.FirstPro.Book -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
